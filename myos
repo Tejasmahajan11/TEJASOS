@@ -1,0 +1,3 @@
+we use grub to avoid code whole bootloder 
+boot.asm and boot.bin are optional if we dont use grub
+grub handles all the process of juming from 16bit to 32 bit protected mode 
