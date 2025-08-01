@@ -1,0 +1,14 @@
+# Ignore build artifacts
+/build/
+/iso/
+*.o
+*.bin
+*.iso
+
+# Ignore VSCode settings (optional)
+.vscode/
+
+# Ignore temporary files
+*~
+*.swp
+
