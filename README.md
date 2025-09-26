@@ -40,7 +40,11 @@ myos/
    cd TEJASOS
    ```
 3. Run `make` to build the project , If problem in rebuild and iso file  Run `make clean` then run `make`
-4. Use ```qemu-system-x86_64 -cdrom TejasOS.iso``` to test the OS
+4. Use this to test the OS
+   ```
+   qemu-system-x86_64 -cdrom TejasOS.iso
+   ```
+   hi
 
 ## 🔭 Future Goals
 
