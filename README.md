@@ -44,6 +44,13 @@ myos/
    ```
    qemu-system-x86_64 -cdrom TejasOS.iso
    ```
+### Software & Tools
+- [GCC / G++ Compiler](https://gcc.gnu.org/) (for compiling C/C++)  
+- [GNU Make](https://www.gnu.org/software/make/) (for build automation)  
+- [NASM Assembler](https://www.nasm.us/) (if using Assembly code) `We haven't used this in the project yet`
+- [GRUB Bootloader](https://www.gnu.org/software/grub/) (for OS development)  
+- [QEMU](https://www.qemu.org/) (for virtualization & testing) OR [VMware/VirtualBox](https://www.virtualbox.org/)  
+- [Git](https://git-scm.com/) (for version control)     
 
 
 ## 🔭 Future Goals
