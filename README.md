@@ -24,7 +24,7 @@ myos/
 
 - Bootable kernel using GRUB (Multiboot compliant)
 - Written entirely in C (no assembly needed)
-- Displays “Hello from TejasOS!” on boot
+- Displays “TejasOS Terminal:” on boot
 - Keyboard input support (captures typed characters)
 - Backspace handling for text input
 - VGA driver for modular screen output (text printing + cursor control)
