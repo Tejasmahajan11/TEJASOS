@@ -35,10 +35,12 @@ myos/
 ## 📦 Build Instructions
 
 1. Clone the repository :-
-   `git clone https://github.com/Tejasmahajan11/TEJASOS.git`
+   ```
+   git clone https://github.com/Tejasmahajan11/TEJASOS.git`
    `cd TEJASOS`
-2. Run `make` to build the project , If problem in rebuild and iso file  Run `make clean` then run `make`
-3. Use `qemu-system-x86_64 -cdrom TejasOS.iso` to test the OS
+   ```
+3. Run `make` to build the project , If problem in rebuild and iso file  Run `make clean` then run `make`
+4. Use `qemu-system-x86_64 -cdrom TejasOS.iso` to test the OS
 
 ## 🔭 Future Goals
 
