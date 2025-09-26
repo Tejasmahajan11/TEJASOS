@@ -12,3 +12,4 @@
 *~
 *.swp
 
+src/kernel_old.c
