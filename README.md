@@ -32,18 +32,6 @@ myos/
 - Modular code structure for easier debugging and future driver integration
 - Easy to build and test on QEMU or VMware
 
-## 📦 Build Instructions
-
-1. Clone the repository :-
-   ```
-   git clone https://github.com/Tejasmahajan11/TEJASOS.git
-   cd TEJASOS
-   ```
-3. Run `make` to build the project , If problem in rebuild an iso file then Run `make clean` and then run `make`
-4. Use this to test the OS
-   ```
-   qemu-system-x86_64 -cdrom TejasOS.iso
-   ```
 ### Software & Tools
 - [VMware/VirtualBox](https://www.virtualbox.org/)  
 - [GCC / G++ Compiler](https://gcc.gnu.org/) (for compiling C/C++)  
@@ -58,13 +46,25 @@ myos/
 - Windows 10/11 (optional, but Linux preferred for development)  
 - macOS (latest stable release)
   
-## Installation & Setup
-
-### 1. Install Dependencies (Linux - Ubuntu/Debian)
+## Installation & Setup:-
+Install Dependencies (Linux - Ubuntu/Debian)
 ```bash
 sudo apt update
 sudo apt install build-essential nasm qemu-system-x86 grub-common git -y
 ```
+## 📦 Build Instructions
+
+1. Clone the repository :-
+   ```
+   git clone https://github.com/Tejasmahajan11/TEJASOS.git
+   cd TEJASOS
+   ```
+3. Run `make` to build the project , If problem in rebuild an iso file then Run `make clean` and then run `make`
+4. Use this to test the OS
+   ```
+   qemu-system-x86_64 -cdrom TejasOS.iso
+   ```
+   
 ## 🔭 Future Goals
 
 - Add colorful text and improved cursor control
