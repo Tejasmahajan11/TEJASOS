@@ -45,14 +45,26 @@ myos/
    qemu-system-x86_64 -cdrom TejasOS.iso
    ```
 ### Software & Tools
+- [VMware/VirtualBox](https://www.virtualbox.org/)  
 - [GCC / G++ Compiler](https://gcc.gnu.org/) (for compiling C/C++)  
 - [GNU Make](https://www.gnu.org/software/make/) (for build automation)  
 - [NASM Assembler](https://www.nasm.us/) (if using Assembly code) `We haven't used this in the project yet`
 - [GRUB Bootloader](https://www.gnu.org/software/grub/) (for OS development)  
-- [QEMU](https://www.qemu.org/) (for virtualization & testing) OR [VMware/VirtualBox](https://www.virtualbox.org/)  
-- [Git](https://git-scm.com/) (for version control)     
+- [QEMU](https://www.qemu.org/) (for virtualization & testing)   
+- [Git](https://git-scm.com/) (for version control)
+      
+### Operating System
+- Linux (Ubuntu 20.04 / 22.04 recommended)  
+- Windows 10/11 (optional, but Linux preferred for development)  
+- macOS (latest stable release)
+  
+## Installation & Setup
 
-
+### 1. Install Dependencies (Linux - Ubuntu/Debian)
+```bash
+sudo apt update
+sudo apt install build-essential nasm qemu-system-x86 grub-common git -y
+```
 ## 🔭 Future Goals
 
 - Add colorful text and improved cursor control
