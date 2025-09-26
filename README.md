@@ -3,7 +3,7 @@
 **TejasOS** is a simple educational operating system created by **Tejas Mahajan** for learning low-level system programming and OS development. It is written in **C** and uses **GRUB** as the bootloader — no assembly (NASM) is used at this stage.
 
 ## 🛠️ Project Structure
-   
+```   
 myos/
 ├── boot/               # Bootloader (GRUB) related files
 ├── build/              # Compiled binaries (.o, .bin)
@@ -18,7 +18,7 @@ myos/
 ├── Makefile            # Build instructions
 ├── linker.ld           # Linker script
 └── TejasOS.iso         # Bootable ISO (generated after build)
-
+```
 myos/
 ├── boot/ # Bootloader (GRUB) related files
 ├── build/ # Compiled binaries (.o, .bin)
