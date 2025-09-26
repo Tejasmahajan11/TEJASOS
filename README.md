@@ -39,12 +39,12 @@ myos/
    git clone https://github.com/Tejasmahajan11/TEJASOS.git
    cd TEJASOS
    ```
-3. Run `make` to build the project , If problem in rebuild and iso file  Run `make clean` then run `make`
+3. Run `make` to build the project , If problem in rebuild an iso file  Run `make clean` then run `make`
 4. Use this to test the OS
    ```
    qemu-system-x86_64 -cdrom TejasOS.iso
    ```
-   hi
+
 
 ## 🔭 Future Goals
 
