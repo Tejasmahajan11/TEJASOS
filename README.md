@@ -19,21 +19,6 @@ myos/
 ├── linker.ld           # Linker script
 └── TejasOS.iso         # Bootable ISO (generated after build)
 ```
-myos/
-├── boot/ # Bootloader (GRUB) related files
-├── build/ # Compiled binaries (.o, .bin)
-├── grub/ # GRUB configuration (grub.cfg)
-├── include/ # Header files (.h) for drivers and kernel
-│ ├── vga.h
-│ └── keyboard.h
-├── src/ # Source code (.c)
-│ ├── kernel.c
-│ ├── vga.c
-│ └── keyboard.c
-├── Makefile # Build instructions
-├── linker.ld # Linker script
-└── TejasOS.iso # Bootable ISO (generated after build)
-   
 
 ##⚙️Features (Implemented)
 
@@ -52,7 +37,7 @@ myos/
 1. Clone the repository :-
    git clone https://github.com/Tejasmahajan11/TEJASOS.git
    cd TEJASOS
-2. Run `make` to build the project , If problem in rebuild and iso file  Run "make clean" then run "run"
+2. Run `make` to build the project , If problem in rebuild and iso file  Run `make clean` then run `make`
 3. Use `qemu-system-x86_64 -cdrom TejasOS.iso` to test the OS
 
 ## 🔭 Future Goals
