@@ -4,26 +4,48 @@
 
 ## 🛠️ Project Structure
    
-****.       
+myos/
+├── boot/               # Bootloader (GRUB) related files
+├── build/              # Compiled binaries (.o, .bin)
+├── grub/               # GRUB configuration (grub.cfg)
+├── include/            # Header files (.h) for drivers and kernel
+│   ├── vga.h
+│   └── keyboard.h
+├── src/                # Source code (.c)
+│   ├── kernel.c
+│   ├── vga.c
+│   └── keyboard.c
+├── Makefile            # Build instructions
+├── linker.ld           # Linker script
+└── TejasOS.iso         # Bootable ISO (generated after build)
+   
 
-## ⚙️ Features
+##⚙️Features (Implemented)
 
-- Bootable kernel using GRUB (Multiboot)
-- Written entirely in C
-- Displays “Hello from TejasOS!”
-- Easy to build and test on QEMU/VMware
+-Bootable kernel using GRUB (Multiboot compliant)
+-Written entirely in C (no assembly needed)
+-Displays “Hello from TejasOS!” on boot
+-Keyboard input support (captures typed characters)
+-Backspace handling for text input
+-VGA driver for modular screen output (text printing + cursor control)
+-Keyboard driver for modular input handling
+-Modular code structure for easier debugging and future driver integration
+-Easy to build and test on QEMU or VMware
 
 ## 📦 Build Instructions
 
-1. Clone the repository  
-2. Run `make` to build the project  
-3. Use `qemu-system-x86_64 -cdrom myos.iso` to test the OS
+1. Clone the repository :-
+   git clone https://github.com/Tejasmahajan11/TEJASOS.git
+   cd TEJASOS
+2. Run `make` to build the project , If problem in rebuild and iso file  Run "make clean" then run "run"
+3. Use `qemu-system-x86_64 -cdrom TejasOS.iso` to test the OS
 
 ## 🔭 Future Goals
 
-- Add keyboard input support  
-- Implement colorful text and cursor control  
-- Explore memory management and interrupts
+-Add colorful text and improved cursor control
+-Explore memory management and interrupt handling
+-Further modularization of drivers for easier debugging
+-Experiment with multi-boot features and extended kernel functionality
 
 ---
 
